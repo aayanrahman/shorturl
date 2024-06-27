@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#5927d6, #E0C3FC);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.auth-inner {
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px;
+  border-radius: 15px;
+  width: 100%;
+  transition: all .3s;
+}
+
+.auth-inner h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #167bff;
+  outline: none;
+  box-shadow: none;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-text {
+  padding: 10px;
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-group input {
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #167bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Fira Sans', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0a5bd8;
+}
+
+.generatedurl {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.generatedurl span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.generatedurl .input-group {
+  justify-content: center;
+}
+
+.generatedurl .form-control {
+  max-width: 400px;
+}
+
+.input-group-append .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
